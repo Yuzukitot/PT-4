@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag Drop</title>
+    <link rel="stylesheet" href="Vball.css">
+    <script src="Positioning.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Vball Positioning</h1>
+    </header>
+    <div class="draggableContainer">
+        <div class="box" draggable="true" id="box1">Player 1</div>
+        <div class="box" draggable="true" id="box2">Player 2</div>
+        <div class="box" draggable="true" id="box3">Player 3</div>
+        <div class="box" draggable="true" id="box4">Player 4</div>
+        <div class="box" draggable="true" id="box5">Player 5</div>
+       <div class="box" draggable="true" id="box6">Player 6</div>
+
+    </div>
+    <div class="droppableContainer">
+        <div class="droppable" data-draggable-id="box1">Setter</div><br>
+        <div class="droppable" data-draggable-id="box2">Libero</div><br>
+        <div class="droppable" data-draggable-id="box3">Quatro</div><br>
+        <div class="droppable" data-draggable-id="box4">Dos</div><br>
+        <div class="droppable" data-draggable-id="box5">Zone One</div><br>
+        <div class="droppable" data-draggable-id="box6">Zone Two</div><br><br>
+        <br><br><br><br><div class="board">Remarks:<p id="remarks"></p>
+        Score:<p id="scores"></p>
+        </div>
+    </div>
+</body>
+</html>
